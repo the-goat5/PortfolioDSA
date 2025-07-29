@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio DSA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div class="loader-wrapper">
+    <div class="tv-overlay"></div>
+    <div class="loader">
+        <div class="loader-inner">
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+            <div class="loader-line-wrap">
+                <div class="loader-line"></div>
+            </div>
+        </div>
+    </div>
+    <audio id="startup-sound" preload="auto">
+        <source src="into (mp3cut.net).mp3" type="audio/mpeg">
+    </audio>
+</div>
+
+    <div id="particles-js"></div>
+    
+     <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#home" class="logo">ARTI<span>STIC</span></a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">À propos</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Parcours</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projets</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Compétences</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item theme-toggle">
+                    <input type="checkbox" id="theme-switch" class="theme-switch">
+                    <label for="theme-switch" class="theme-label">
+                        <span class="theme-icon">🎨</span>
+                    </label>
+                    <div class="theme-options">
+                        <div class="theme-option" data-theme="default" title="Default"></div>
+                        <div class="theme-option" data-theme="dark" title="Dark"></div>
+                        <div class="theme-option" data-theme="nature" title="Nature"></div>
+                        <div class="theme-option" data-theme="sunset" title="Sunset"></div>
+                        <div class="theme-option" data-theme="ocean" title="Ocean"></div>
+                    </div>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Je suis Etudiant en <span class="text-gradient">Informatique et technologie Numérique</span></h1>
+            <p class="hero-subtitle">Futur ingénieur en <span class="text-gradient">IA</span> et développeur web junior</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+        <div class="cube-container">
+            <div class="cube">
+                <div class="face front">HTML</div>
+                <div class="face back">CSS</div>
+                <div class="face right">JS</div>
+                <div class="face left">3D</div>
+                <div class="face top">PYTHON</div>
+                <div class="face bottom">DESIGN WEB</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="section-header">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="container">
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="WhatsApp Image 2025-07-23 à 17.19.34_40fe7f37.jpg" alt="Profil" class="profile-img">
+                    <div class="img-border"></div>
+                </div>
+                <div class="about-content">
+                    <h3>Passionné par la technologie et le développement web innovant</h3>
+                    <p class="fade-in">Étudiant passionné, j'ai fondé ma propre startup dénommée <span class="detail-key">"ARTISTIC"</span> spécialisée dans les services de développement web, la programmation Excel et l'architecture. J'accompagne les clients dans la création de solutions numériques innovantes et sur mesure.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-key">Nom:</span>
+                            <span class="detail-value">Simon Assamoah DODOU</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-key">Email:</span>
+                            <span class="detail-value">contact@monportfolio.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-key">Expérience:</span>
+                            <span class="detail-value">+2 ans</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-key">Spécialité:</span>
+                            <span class="detail-value">Développement 3D Web, Designer</span>
+                        </div>
+                    </div>
+                    <a href="CV_Dodou_Simon_Assamoah.pdf" class="download-btn" download>
+                        <span>Télécharger CV</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section education">
+        <div class="section-header">
+            <h2 class="section-title">Parcours Académique</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Présent</div>
+                    <div class="timeline-content">
+                        <h3>Classe Préparatoire</h3>
+                        <p class="institution">BEM TECH</p>
+                        <p>Spécialisation en Intelligence Artificielle et Développement Web</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2022 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Licence en Réseau génie logiciel</h3>
+                        <p class="institution">PIGIER CI</p>
+                        <p>Mention Très Bien</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Baccalauréat</h3>
+                        <p class="institution">Collège Arhogninci</p>
+                        <p>Baccalauréat Scientifique série D</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section services">
+        <div class="section-header">
+            <h2 class="section-title">Mes Services</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Création de sites web modernes et responsives avec les dernières technologies.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Design UI/UX</h3>
+                    <p>Conception d'interfaces utilisateur intuitives et d'expériences utilisateur optimisées.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Développement de solutions IA sur mesure pour automatiser vos processus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section projects">
+        <div class="section-header">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="container">
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="pexels-designecologist-1779487.jpg" alt="Projet 1">
+                            <h3>Site vitrine d'une école</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>Site vitrine d'une école</h3>
+                            <p>Site web présentant les activités et les services de l'école.</p>
+                            <ul class="project-techs">
+                                <li>Three.js</li>
+                                <li>React</li>
+                                <li>Node.js</li>
+                            </ul>
+                            <a href="https://ccpestephilomene.netlify.app/" target="_blank" class="project-link">Voir le projet</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="pexels-anthonyshkraba-production-8837511.jpg" alt="Mes plans">
+                            <h3>Mes Plans & Conceptions</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>Mes Plans & Conceptions</h3>
+                            <p>Accédez à tous mes plans et documents de conception stockés sur Google Drive.</p>
+                            <ul class="project-techs">
+                                <li>AutoCAD</li>
+                                <li>SketchUp</li>
+                                <li>Revit</li>
+                            </ul>
+                            <a href="https://drive.google.com/drive/folders/1XVmI6Ys_rVMxcZozj8FQEUtzlGPnx1NK?usp=sharing" target="_blank" class="project-link">Voir les plans</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-card-inner">
+                        <div class="project-card-front">
+                            <img src="pexels-donatellotrisolino-1336858.jpg" alt="Designs & Logos">
+                            <h3>Mes Créations Design</h3>
+                        </div>
+                        <div class="project-card-back">
+                            <h3>Mes Créations Design</h3>
+                            <p>Découvrez une sélection de mes logos et projets de design graphique.</p>
+                            <ul class="project-techs">
+                                <li>Illustrator</li>
+                                <li>Photoshop</li>
+                                <li>Canva</li>
+                            </ul>
+                            <button type="button" class="project-link show-gallery">Voir la galerie</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section skills">
+        <div class="section-header">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="container">
+            <div class="skills-container">
+                <div class="skill-circle">
+                    <div class="circle-progress" data-value="95">
+                        <svg class="circle-chart" viewBox="0 0 36 36">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-fill" stroke-dasharray="95, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <div class="circle-info">
+                            <span class="circle-percent">95%</span>
+                            <span class="circle-name">HTML/CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-circle">
+                    <div class="circle-progress" data-value="90">
+                        <svg class="circle-chart" viewBox="0 0 36 36">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-fill" stroke-dasharray="90, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <div class="circle-info">
+                            <span class="circle-percent">85%</span>
+                            <span class="circle-name">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-circle">
+                    <div class="circle-progress" data-value="85">
+                        <svg class="circle-chart" viewBox="0 0 36 36">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-fill" stroke-dasharray="85, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <div class="circle-info">
+                            <span class="circle-percent">90%</span>
+                            <span class="circle-name">Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-circle">
+                    <div class="circle-progress" data-value="80">
+                        <svg class="circle-chart" viewBox="0 0 36 36">
+                            <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                            <path class="circle-fill" stroke-dasharray="80, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                        </svg>
+                        <div class="circle-info">
+                            <span class="circle-percent">100%</span>
+                            <span class="circle-name">SketchUp</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-bars">
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Photoshop</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>AutoCAD</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>Python</span>
+                        <span>40%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-width="40"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-info">
+                        <span>PHP</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="skill-bar-bg">
+                        <div class="skill-bar-fill" data-width="70"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact">
+        <div class="section-header">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="section-divider"></div>
+        </div>
+        <div class="container">
+            <div class="contact-container">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Votre nom</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Votre email</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required>
+                        <label for="subject">Sujet</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required></textarea>
+                        <label for="message">Votre message</label>
+                        <span class="focus-border"></span>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Envoyer</span>
+                        <svg width="34" height="34" viewBox="0 0 74 74" fill="none">
+                            <circle cx="37" cy="37" r="35.5" stroke="currentColor" stroke-width="3"></circle>
+                            <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="currentColor"></path>
+                        </svg>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <h3>Informations de contact</h3>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-text">Abidjan, Côte d'Ivoire</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div class="info-text">simondodou2@gmail.com</div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div class="info-text">+225 07 13 44 88 67</div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/votreprofil" target="_blank" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/votreprofil" target="_blank" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/votreprofil" target="_blank" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://dribbble.com/votreprofil" target="_blank" class="social-link" aria-label="Dribbble">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <div class="footer-logo">ARTI<span>STIC</span></div>
+                <p>Création de solutions numériques innovantes et sur mesure.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#education">Parcours</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>Abidjan, Côte d'Ivoire</li>
+                    <li>simondodou2@gmail.com</li>
+                    <li>+225 07 13 44 88 67</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Réseaux sociaux</h4>
+                <div class="footer-social">
+                    <a href="https://github.com/the-goat5"><i class="fab fa-github"></i></a>
+                    <a href="#https://www.linkedin.com/in/simon-assamoah-dodou-76a659347/?originalSubdomain=ci"><i class="fab fa-linkedin"></i></a>
+                    <a href="#https://x.com/dsa_offf5?t=YT_07PNhmEIh6ctraAEYjA&s=08"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com/dsa_off5"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ARTISTIC. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <div id="design-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Quelques Créations Design</h3>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="AFTER SCHOOL.png" alt="Design 1">
+                    <p>Affiche événementielle</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="Design sans titre.png" alt="Design 2">
+                    <p>Cover d'un album</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="1.png" alt="Design 3">
+                    <p>Cover d'un son</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bouton flottant haut de page -->
+<button id="scrollTopBtn" class="scroll-top-btn" title="Remonter">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Lecteur Spotify flottant -->
+<div class="floating-spotify-player" id="spotifyPlayer">
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/63X3y9SzDkZyj38jmbBWGF?utm_source=generator&theme=0" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
